@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_wildCats"
+        android:icon="@drawable/puma"
+        android:title="@string/title_wildCats"
+        android:iconTint="#000000"/>
+
+    <item
+        android:id="@+id/navigation_reptile"
+        android:icon="@drawable/reptile"
+        android:title="@string/title_reptiles"
+        android:iconTint="#000000"/>
+
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="@string/title_home"
+        android:iconTint="#000000"/>
+
+    <item
+        android:id="@+id/navigation_bull"
+        android:icon="@drawable/bull"
+        android:title="@string/title_bull"
+        android:iconTint="#000000"/>
+    <item
+        android:id="@+id/navigation_bird"
+        android:icon="@drawable/bird"
+        android:title="@string/title_birds"
+    android:iconTint="#000000"/>
+
+</menu>

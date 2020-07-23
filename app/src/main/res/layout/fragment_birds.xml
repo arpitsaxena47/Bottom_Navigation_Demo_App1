@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/birdsScrollView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#91D5FB"
+    tools:context=".ui.UI.birds.BirdsFragment">
+
+
+    <TextView
+        android:id="@+id/txtBirds"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/text_margin"
+        android:background="@drawable/birdsbg"
+        android:tag="@string/title_birds"
+        android:text="@string/textBirds"
+        android:textColor="#000000"
+        android:textSize="30sp" />
+
+</androidx.core.widget.NestedScrollView>

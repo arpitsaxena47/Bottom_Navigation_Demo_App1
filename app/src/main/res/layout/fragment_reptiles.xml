@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F7D174"
+    tools:context=".ui.UI.reptiles.ReptilesFragment">
+
+    <TextView
+        android:id="@+id/txtReptiles"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/text_margin"
+        android:background="@drawable/reptilebg"
+        android:text="@string/textReptiles"
+        android:textColor="#000000"
+        android:backgroundTint="#990033"
+        android:textSize="30sp" />
+</androidx.core.widget.NestedScrollView>
